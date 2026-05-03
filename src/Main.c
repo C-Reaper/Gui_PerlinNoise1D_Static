@@ -7,7 +7,7 @@ float Persistance = 900.0f;
 
 void Setup(AlxWindow* w){
     PerlinNoise_Permutations_Init();
-    AlxFont_Resize(&window.AlxFont,50,50);
+    AlxFont_Resize(&window.font,50,50);
 }
 
 void Update(AlxWindow* w){
